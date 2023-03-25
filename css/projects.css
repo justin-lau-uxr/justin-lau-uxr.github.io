@@ -1,0 +1,152 @@
+
+/*------------------------------PROJECT BODY SECTION------------------------------*/
+.project-title {
+	display: flex;
+}
+
+.project-title h1 {
+	/*width: 50%;*/
+	
+}
+
+
+.sidenav {
+	width: 200px;
+	position: fixed;
+	z-index: 1;
+	top: 350px;
+	left: 50px;
+	/*background: #eee;*/
+	overflow-x: hidden;
+	padding: 8px 0;
+}
+
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	color: #2196F3;
+	display: block;
+}
+
+.sidenav a:hover {
+	color: #064579;
+}
+
+.project-video {
+	margin: auto;
+	width: 50%;
+}
+
+.project-details p {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.project-content h3 {
+	margin-bottom: -10px;
+	font-weight: medium;
+}
+
+.project-content h4 {
+	font-weight: medium;
+}
+
+.project-content p, li {
+	line-height: 2rem;
+	font-family: 'Roboto', sans-serif;
+}
+
+.project-overview a:hover {
+	opacity: 50%;
+}
+
+.project-overview img {
+	width: 100%;
+}
+
+.project-initial-idea img {
+	width: 100%;
+}
+
+.project-initial-idea a:hover {
+	opacity: 50%;
+}
+
+.project-first-stage img {
+	width: 100%;
+}
+
+.project-second-stage img {
+	width: 100%;
+}
+
+.project-third-stage img {
+	width: 100%;
+}
+
+.project-content .bold {
+	/*font-weight: bold;*/
+}
+
+.project-content .strikethrough {
+	text-decoration: line-through;
+}
+
+.indent {
+	padding-left: 50px;
+}
+
+figcaption {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5rem;
+	font-style: italic;
+
+}
+
+/*--------------------------END OF PROJECT BODY SECTION------------------------------*/
+
+
+/*--------------------------TWITCH X PENGUIN SECTION------------------------------*/
+
+.twitch-poll img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.twitch-ideation-sketches img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+/*--------------------------END OF TWITCH X PENGUIN SECTION------------------------------*/
+
+
+/*------------------------------MEDIA SECTION------------------------------*/
+
+@media only screen and (max-width:800px) {
+	/* For mobile phones: */
+	.project-title h1 {
+		margin-bottom: 0.75rem;
+	}
+
+	.flex-container {
+		display: block;
+	}
+
+	.project-content {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	.center {
+		width: 85%;
+	}
+
+}
+
+/*------------------------------END OF MEDIA SECTION------------------------------*/

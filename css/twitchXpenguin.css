@@ -1,0 +1,135 @@
+
+h4 {
+	margin-bottom: 0px;
+}
+
+a:hover {
+	opacity: 0.5;
+}
+
+
+/*------------------------------PROJECT BODY SECTION------------------------------*/
+.project-title {
+	padding-top: 50px;
+}
+
+.project-title h1 {
+
+}
+
+.sidenav {
+	width: 200px;
+	position: fixed;
+	z-index: 1;
+	top: 350px;
+	left: 50px;
+	/*background: #eee;*/
+	overflow-x: hidden;
+	padding: 8px 0;
+}
+
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	color: #2196F3;
+	display: block;
+}
+
+.sidenav a:hover {
+	color: #064579;
+}
+
+.highlight {
+	background-image:#ffd400 100%;
+	/*background-position: -0% 0;*/
+	/*background-size: 200% auto;*/
+}
+
+.project-overview img {
+	width: 100%;
+}
+
+.project-initial-idea img {
+	width: 100%;
+}
+
+.project-initial-idea a:hover {
+	opacity: 50%;
+}
+
+.project-first-stage img {
+	width: 100%;
+}
+
+.project-second-stage img {
+	width: 100%;
+}
+
+.project-third-stage img {
+	width: 100%;
+}
+
+.project-content .bold {
+	/*font-weight: bold;*/
+}
+
+.project-content .strikethrough {
+	text-decoration: line-through;
+}
+
+.indent {
+	padding-left: 50px;
+	padding-bottom: 1em;
+}
+
+
+.inline h5, .inline p{
+	display: inline;
+	vertical-align: baseline;
+}
+
+.width-80 {
+	margin: auto;
+	width: 80%;
+}
+
+mark {
+	background-color: #FF6600;
+}
+
+figcaption {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5rem;
+	font-style: italic;
+
+}
+
+/*--------------------------END OF PROJECT BODY SECTION------------------------------*/
+
+
+
+/*------------------------------MEDIA SECTION------------------------------*/
+
+@media only screen and (max-width:800px) {
+	/* For mobile phones: */
+	.project-title h1 {
+		margin-bottom: 0.75rem;
+	}
+
+	.flex-container {
+		display: block;
+	}
+
+	.project-content {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	.center {
+		width: 85%;
+	}
+
+}
+
+/*------------------------------END OF MEDIA SECTION------------------------------*/

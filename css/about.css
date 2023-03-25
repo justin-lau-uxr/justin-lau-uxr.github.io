@@ -1,0 +1,148 @@
+/*------------------------------INTRODUCTION SECTION------------------------------*/
+.about-intro {
+	padding-top: 100px;
+}
+
+.about-intro h1 {
+	text-align: left;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+}
+
+.about-intro h4 {
+	text-align: left;
+	line-height: 200%;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 1) 50%, #ffd400 50%);
+	background-position: -0% 0;
+	background-size: 200% auto;
+	color: black;
+	/*text-decoration: none;*/
+	transition: background-position 0.5s ease-out;
+}
+
+.about-intro h4:hover {
+	background-position: -99.99% 0;
+
+}
+
+.about-intro h5 {
+	text-align: left;
+	line-height: 200%;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -10px;
+}
+
+
+.about-intro a {
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 1) 50%, #ffd400 50%);
+	background-position: -0% 0;
+	background-size: 200% auto;
+	/*text-decoration: none;*/
+	transition: background-position 0.5s ease-out;
+}
+
+.about-intro a:hover {
+	background-position: -99.99% 0;
+}
+
+.about-intro p {
+	text-align: left;
+	line-height: 200%;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	font-family: Roboto, sans-serif;
+
+}
+
+.links-container {
+	display: flex;
+	justify-content: space-around;
+	padding: 50px;
+}
+
+.links-container a {
+	text-decoration: none;
+	color: black;
+
+	font-family: Roboto, sans-serif;
+	font-weight: 300;
+
+}
+
+.links-container a:hover {
+	opacity: 0.5;
+}
+
+.centered-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+.about-image {
+/*	padding-left: 5%;*/
+}
+
+.about-image-description {
+	padding-left: 5%;
+}
+
+.active {
+	opacity: 0.5;
+}
+/*----------------------END OF INTRODUCTION SECTION------------------------------*/
+
+
+
+@media screen and (max-width: 800px) {
+	
+	.about-intro h1 {
+		text-align: center;
+		font-weight: 300;
+	}
+
+	.links-container {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	/*-----------------------------*/
+
+	.col-1of2{
+		width: 80%;
+	}
+
+	.col-2of2{
+		width: 100%;
+	}
+
+	.col-1of3{
+		width: 80%;
+	}
+
+	.col-2of3{
+		width: 80%;
+	}
+
+	.about-image {
+		padding-left: 0px;
+	}
+
+}

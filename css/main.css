@@ -1,0 +1,407 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+
+	/*font-family: Roboto Slab, Roboto, sans-serif;*/
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: Roboto Slab, sans-serif;
+}
+
+h1 {
+	font-size: 86px;
+}
+
+h2 {
+	font-size: 55px;
+}
+
+h3 {
+	font-size: 44px;
+}
+
+h4 {
+	font-size: 35px;
+}
+
+h5 {
+	font-size: 22px;
+}
+
+p, li{
+	font-family: Roboto, sans-serif;
+	font-size: 18px;
+	line-height: 150%;
+}
+
+figcaption {
+	text-align: center;
+}
+
+em {
+	font-family: Roboto, sans-serif;
+	font-size: 18px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/*------------------------------NAV BAR SECTION------------------------------*/
+/* Add a background color to the top navigation */
+.topnav {
+	overflow: hidden;
+	background-color: rgba(255,255,255,0.8);
+	/*background-color: rgba(255,255,255);*/
+	/*box-shadow: 10px 10px 5px #aaaaaa;*/
+	position: fixed;
+	width: 100%;
+	padding: 5px;
+}
+
+.topnav .main-link {
+	font-family: Roboto Slab, sans-serif;
+	font-weight: bold;
+
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 24px 26px;
+	text-decoration: none;
+
+	font-family: Roboto, sans-serif;
+}
+
+.topnav a:hover {
+	opacity: 0.7;
+	color: #002BFF;
+
+}
+
+.topnav .icon {
+	display: none;
+}
+
+/*------------------------------END OF NAV BAR SECTION-------------------------*/
+
+
+
+/*------------------------------INTRODUCTION SECTION------------------------------*/
+.introduction {
+	padding: 3rem;
+	padding-top: 3rem;
+	padding-bottom: 0px;
+}
+
+
+.introduction h1 {
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.introduction h2 {
+	text-align: center;
+}
+
+.introduction h3 {
+	text-align: center;
+}
+
+.introduction h4 {
+	text-align: center;
+}
+
+.introduction h5 {
+	text-align: center;
+}
+
+.introduction a {
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 1) 50%, #ffd400 50%);
+	background-position: -0% 0;
+	background-size: 200% auto;
+	color: #002BFF;
+	/*text-decoration: none;*/
+	transition: background-position 0.5s ease-out;
+}
+
+.introduction a:hover {
+	background-position: -99.99% 0;
+}
+
+.hover-highlight {
+
+}
+
+.profile-picture {
+	max-width: 40%;
+}
+
+/*------------------------------END OF INTRODUCTION SECTION-------------------------*/
+
+
+
+/*------------------------------FOOTER SECTION------------------------------*/
+
+.footer {
+	padding-top: 50px;
+	/*padding-bottom: 50px;*/
+	text-align: center;
+
+	font-family: Roboto, sans-serif;
+
+}
+
+.footer p{
+}
+
+.footer a:hover {
+	opacity: 0.5;
+}
+
+/*------------------------------END OF FOOTER SECTION------------------------------*/
+
+
+
+
+
+/*------------------------------GRIDS SECTION------------------------------*/
+.flex-container {
+	display: flex;
+}
+
+.col-1of1{
+	width: 100%;
+}
+
+.col-1of2{
+	width: 50%;
+}
+
+.col-2of2{
+	width: 50%;
+}
+
+.col-1of3{
+	width: 33%;
+}
+
+.col-2of3{
+	width: 66%;
+}
+
+.col-1of8{
+	width: 12.5%;
+}
+
+.col-2of8{
+	width: 25%;
+}
+
+.col-3of8{
+	width: 37.5%;
+}
+
+.col-4of8{
+	width: 50%;
+}
+
+.col-5of8{
+	width: 62.5%;
+}
+
+.col-6of8{
+	width: 75%;
+}
+
+.col-7of8{
+	width: 87.5%;
+}
+
+.col-8of8{
+	width: 100%;
+}
+
+.center {
+	margin: auto;
+	width: 60%;
+	/*border: 3px solid green;*/
+	padding: 10px;
+}
+
+.active {
+	opacity: 50%;
+}
+
+/*------------------------------GRIDS SECTION------------------------------*/
+
+
+/*------------------------------PARALLAX SECTION------------------------------*/
+.parallax img {
+	/*The image used*/
+	/*background-image: url("/landing-parallax.png");*/
+
+	/* Full width */
+	width: 100%; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*------------------------------PARALLAX SECTION------------------------------*/
+
+/*------------------------------SCROLLBAR SECTION------------------------------*/
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+/*  box-shadow: inset 0 0 5px grey; 
+border-radius: 5px;*/
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: gray; 
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: darkgray; 
+}
+
+/*------------------------------SCROLLBAR SECTION------------------------------*/
+
+/*------------------------------PROJECTS SECTION------------------------------*/
+.projects {
+	padding: 2em;
+}
+
+.projects h3 {
+	margin: 0;
+}
+
+.project-item {
+	width: 33%;
+	padding: 1em;
+}
+
+.project-item p {
+	width: 100%;
+	line-height: 200%;
+}
+
+.projects-image img {
+	width: 100%;
+}
+
+.projects-image img:hover {
+	opacity: 0.5;
+}
+
+/*------------------------------END OF PROJECTS SECTION------------------------------*/
+
+/*------------------------------MEDIA SECTION------------------------------*/
+
+
+@media screen and (max-width: 800px) {
+	.topnav a:not(:first-child) {display: none;}
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
+
+	.topnav {
+		padding: 0px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.topnav.responsive {position: fixed;}
+	.topnav.responsive .icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+	.disclaimer h2 {
+		padding-top: 1rem;
+	}
+
+	/*-----------------------------*/
+
+	.center {
+		width: 90%;
+	}
+
+	.flex-container {
+		display: block;
+	}
+
+	.projects {
+		padding: 0px;
+	}
+
+	.project-item {
+		width: 90%;
+		/*padding: 2rem;*/
+	}
+
+
+	/*-----------------------------*/
+
+	.col-1of8{
+		width: 100%;
+	}
+
+	.col-2of8{
+		width: 100%;
+	}
+
+	.col-3of8{
+		width: 100%;
+	}
+
+	.col-4of8{
+		width: 100%;
+	}
+
+	.col-5of8{
+		width: 100%;
+	}
+
+	.col-6of8{
+		width: 100%;
+	}
+
+	.col-7of8{
+		width: 100%;
+	}
+
+	.col-8of8{
+		width: 100%;
+	}
+
+}

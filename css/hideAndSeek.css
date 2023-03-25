@@ -1,0 +1,86 @@
+
+/*------------------------------LIFTFIT BODY SECTION------------------------------*/
+.liftFit-title {
+	display: flex;
+}
+
+.liftFit-title h2 {
+	width: 50%;
+}
+
+.liftFit-video {
+	margin: auto;
+	width: 50%;
+}
+
+.liftFit-content p {
+	line-height: 150%;
+}
+
+.liftFit-content h5 {
+	margin-bottom: -10px;
+}
+
+.liftFit-overview a:hover {
+	opacity: 50%;
+}
+
+.liftFit-first-stage img {
+	width: 100%;
+}
+
+.liftFit-second-stage img {
+	width: 100%;
+}
+
+.liftFit-initial-idea img {
+	width: 100%;
+}
+
+.liftFit-initial-idea img:hover {
+	opacity: 50%;
+}
+
+figcaption {
+	font-family: 'Open Sans Light', sans-serif;
+	font-size: 90%;
+	font-style: italic;
+}
+
+/*--------------------------END OF LIFTFIT BODY SECTION------------------------------*/
+
+
+/*------------------------------MEDIA SECTION------------------------------*/
+
+@media only screen and (max-width:800px) {
+	/* For mobile phones: */
+	h2 {
+		font-size: 2em;
+	}
+
+	.topnav {
+		width: 90%;
+		max-width: 100%;
+	}
+
+	.topnav-right a {
+		padding: 0px;
+	}
+
+	.flex-container {
+		display: block;
+	}
+
+	.liftFit-content {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	.center {
+		width: 80%;
+	}
+
+}
+
+/*------------------------------END OF MEDIA SECTION------------------------------*/
