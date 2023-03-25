@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="css/main.css" media="screen"/>
+	
+	<link rel="icon" href="images/icons/page-icon.jpg">
+	
+	<!-- Add font library -->
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet"> 
+	<link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
+
+	<!-- Add icon library -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Additional Icons taken from https://icons8.com/ -->
+
+	<title>Justin Lau's Portfolio</title>
+
+</head>
+
+<body>
+
+	<header id="header">
+		<nav>
+			<div class="topnav" id="myTopnav">
+				<a class="main-link" href="#header">JUSTIN LAU</a>
+				<a href="resume.pdf" target="blank">Resume</a>
+				<a href="#projects">Projects</a>
+				<a href="about.html">About</a>
+				<a href="mailto:laujustin97@gmail.com?subject=I'm interested in working with you!" target="blank">Contact</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+				
+			</div>
+		</nav>
+	</header>
+
+	<section id="introduction" class="introduction flex-container">
+
+		<div class="col-8of8 center">
+			<h1>Hi, I'm Justin!</h1>
+			<h3>I'm a <a href="about.html">user experience researcher and designer*</a> based in Vancouver, BC.</h3>
+			<h5>Currently, I'm a UX Researcher @ <a href="https://www.cibc.com/en/personal-banking.html" target="blank">Canadian Imperial Bank of Commerce (CIBC)</a>.</h5>
+		</div>
+
+	</section>
+
+	<section id="projects" class="projects">
+
+		<div class="flex-container">
+
+			<div class="project-item">
+				<a href="cibc.html" class="projects-image">
+					<img src="images/cibc/cibc-life-insurance-project-tile.png" alt="CIBC Life Insurance Project Banner">
+				</a>
+			</div>
+
+			<div class="project-item">
+				<a href="wavefront.html" class="projects-image">
+					<img src="images/wavefront/wavefront-project-tile.png" alt="Wavefront Centre for Communication Accessibility Project Banner">
+				</a>
+			</div>
+
+			<div class="project-item">
+				<a href="rabbitats.html" class="projects-image">	
+					<img src="images/rabbitats/rabbitats-project-tile.png" alt="Rabbitats Project Banner">
+				</a>
+			</div>
+
+		</div>
+
+</section>
+
+
+
+<footer id="footer" class="footer">
+	<a href="https://www.linkedin.com/in/justinlau1997/" target="blank"><img src="images/icons/icons8-linkedin-32.png" alt="linkedIn icon"></a>
+	<a href="https://www.instagram.com/just1n_lau/" target="blank"><img src="images/icons/icons8-instagram-32.png" alt="instagram icon"></a>
+	<a href="mailto:laujustin97@gmail.com?subject=I'm interested in working with you!" target="blank"><img src="images/icons/icons8-gmail-32.png" alt="email icon"></a>
+	<p>Coded and designed by Justin Lau 2023</p>
+</footer>
+
+
+
+
+<script>
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="css/main.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="css/about.css" media="screen"/>
+
+	<link rel="icon" href="images/icons/page-icon.jpg">
+	
+	<!-- Add font library -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"/>
+	<link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+	<!-- Add icon library -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Additional Icons taken from https://icons8.com/ -->
+
+	<title>Justin Lau's Portfolio</title>
+
+</head>
+
+<body>
+
+	<header id="header">
+		<nav>
+			<div class="topnav" id="myTopnav">
+				<a class="main-link" href="index.html">JUSTIN LAU</a>
+				<a href="resume.pdf" target="blank">Resume</a>
+				<a href="index.html#projects">Projects</a>
+				<a href="#header">About</a>
+				<a href="mailto:laujustin97@gmail.com?subject=I'm interested in working with you!" target="blank">Contact</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+				
+			</div>
+		</nav>
+	</header>
+
+	<section id="about-intro" class="about-intro">
+
+		<div class="flex-container">
+
+			<div class="col-4of8">
+				<img class="centered-image about-image" src="images/profilePicture/portrait_cropped.jpg" alt="A picture of me!">
+
+				<p class="about-image-description">I'm currently the sole UX Researcher on CIBC's Enterprise Innovation team, a ragtag group of go-getters who tackle the organizations’ wickedest of problems and ground ideation in reality.</p>
+
+			</div>
+
+
+			<div class="col-4of8 center">
+				<h1>Nice to meet ya!</h1>
+
+				<h4>*I'm a creative problem solver who cultivates curiosity, embraces diversity, and challenges the status quo, to craft enjoyable and useful experiences!</h4>
+
+				<h5>Some fun things I've been up to recently:</h5>
+				<p>&#x1f3c6 I <a href="https://www.linkedin.com/posts/justinlau1997_we-are-ecstatic-to-announce-the-winning-teams-activity-6770374206707384321-UG4m" target="blank">won an award</a> at the first hackathon I’ve ever attended. *One year later, I was accepted as a mentor for the same hackathon!</p>
+				<p>&#127918 I’m ranked in the <a href="https://lolchess.gg/profile/na/kyuubiknight" target="blank">top 1000 TFT players</a> in North America.</p>
+				<p>&#128378 I danced with <a href="https://www.instagram.com/unitydanceco/?hl=en" target="blank">Unity Dance Co.</a> from September 2019 to January 2020.</p>
+				
+				<h5>A little more about me</h5>
+				
+				<p>For as long as I can remember, I’ve always been a super curious person. This drive for wanting to learn more is one of the main reasons I got interested in the world of UX. I love learning about people; the way they work, live, play, and interact with the things in their everyday lives. This curiosity of wanting to know “what makes someone tick”, and never being afraid to ask why, is what sparked my interest specifically in UX research. Through my work experience I’m also learning what it means to advocate for UXR, and what it takes to help build a team that understands the necessity of research, and is confident in their ability to conduct, interpret, and synthesize UXR to produce data-driven design decisions. Everyday I get to enjoy this process of learning, unlearning, and relearning, and it’s helped shape me into the person I am today!</p>
+
+				<!-- <p>Some industries that I'm currently interested in are Financial literacy/FinTech, and UX for game design.</p> -->
+				
+				<!-- 
+				<div class="links-container">
+					<a href="index.html#projects">See My Work</a>
+					<a href="mailto:laujustin97@gmail.com?subject=I'm interested in working with you!">Send Me an Email</a>
+				</div>
+				 -->
+
+			</div>
+		</div>
+	</section>
+	
+	<footer id="footer" class="footer">
+		<a href="https://www.linkedin.com/in/justinlau1997/" target="blank"><img src="images/icons/icons8-linkedin-32.png" alt="linkedIn icon"></a>
+		<a href="https://www.instagram.com/just1n_lau/" target="blank"><img src="images/icons/icons8-instagram-32.png" alt="instagram icon"></a>
+		<a href="mailto:laujustin97@gmail.com?subject=I'm interested in working with you!" target="blank"><img src="images/icons/icons8-gmail-32.png" alt="email icon"></a>
+		<p>Coded and designed by Justin Lau 2023</p>
+	</footer>
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+
+</body>
+</html>
