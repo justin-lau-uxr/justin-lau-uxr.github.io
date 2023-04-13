@@ -1,0 +1,175 @@
+a {
+	font-family: Roboto, sans-serif;
+}
+
+h4 {
+	padding-top: 75px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+a:hover {
+	opacity: 0.5;
+}
+
+
+/*------------------------------SIDE NAV SECTION------------------------------*/
+
+.sidenav {
+	width: 200px;
+	position: fixed;
+	top: 350px;
+	left: 40px;
+	padding: 8px 0;
+}
+
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	display: block;
+
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 1) 50%, #ffd400 50%);
+	background-position: -0% 0;
+	background-size: 200% auto;
+	color: black;
+	/*text-decoration: none;*/
+	transition: background-position 0.5s ease-out;
+}
+
+.sidenav a:hover {
+	background-position: -99.99% 0;
+	opacity: 100%;
+}
+/*------------------------------END OF SIDE NAV SECTION------------------------------*/
+
+
+
+/*------------------------------PROJECTS SECTION------------------------------*/
+.project-title {
+	padding-top: 50px;
+}
+
+.guiding-principles {
+	padding: 1.5em;
+}
+
+.mockup-image {
+	margin: auto;
+	padding: 1em;
+}
+
+/*------------------------------END OF PROJECTS SECTION------------------------------*/
+
+
+
+/*------------------------------MILESTONE 1 SECTION------------------------------*/
+
+.milestone1 h5{
+	margin-bottom: -0.5em;
+}
+
+.definition-recruitment-criteria {
+  display: none;
+}
+
+/*--------------------------END OF MILESTONE1 SECTION------------------------------*/
+
+
+/*------------------------------MILESTONE2 SECTION------------------------------*/
+
+.usability-testing-prompt {
+  margin: 2em 0;
+  padding: 0 1em;
+  font-size: 1.2em;
+  line-height: 1.6;
+  font-style: italic;
+  border-left: 5px solid #08415C;
+  background: #ffd400;
+}
+
+.usability-testing-prompt{
+  margin: 0;
+}
+
+.increase-top-padding {
+	padding-top: 4em;
+}
+
+
+/*--------------------------END OF MILESTONE2 SECTION------------------------------*/
+
+
+/*------------------------------MILESTONE 3 SECTION------------------------------*/
+
+.milestone3 h5{
+	margin-bottom: -0.5em;
+}
+
+.definition-recruitment-criteria {
+  display: none;
+}
+
+/*--------------------------END OF MILESTONE3 SECTION------------------------------*/
+
+
+
+/*------------------------------INDENT SECTION------------------------------*/
+
+.indent {
+	padding-left: 50px;
+	padding-bottom: 1em;
+}
+
+.indent h5, .indent p{
+	display: inline;
+	vertical-align: baseline;
+}
+
+figcaption {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5rem;
+	font-style: italic;
+
+}
+
+/*--------------------------END OF INDENT SECTION------------------------------*/
+
+
+
+/*------------------------------MEDIA SECTION------------------------------*/
+
+@media only screen and (max-width:800px) {
+	/* For mobile phones: */
+	
+	h2 {
+		font-size: 40px;
+	}
+
+	.project-title h1 {
+		margin-bottom: 0.75rem;
+	}
+
+	.flex-container {
+		display: block;
+	}
+
+	.project-content {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	.center {
+		width: 85%;
+	}
+
+	.sidenav {
+		visibility: hidden;
+	}
+
+	.indent {
+		padding-left: 0;
+	}
+
+}
+
+/*------------------------------END OF MEDIA SECTION------------------------------*/
