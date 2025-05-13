@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="css/main.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="css/wavefront.css" media="screen"/>
+	<!-- <link rel="stylesheet" type="text/css" href="css/sprung-studios-wildcraft.css" media="screen"/> -->
+	
+	<link rel="icon" href="images/icons/page-icon.jpg">
+
+	<!-- Add font library -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"/>
+	<link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+	<!-- Add icon library -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Additional Icons taken from https://icons8.com/ -->
+
+	<title>Justin Lau | Wildcraft UX-UI Case Study</title>
+
+</head>
+
+<body>
+
+	<header id="header">
+		<nav>
+			<div class="topnav" id="myTopnav">
+				<a class="main-link" href="index.html">JUSTIN LAU</a>
+				<a href="resume.pdf" target="blank">Resume</a>
+				<a href="index.html#projects">Projects</a>
+				<a href="about.html">About</a>
+				<a href="mailto:laujustin97@gmail.com?subject=I'm interested in working with you!" target="blank">Contact</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+				
+			</div>
+		</nav>
+	</header>
+
+	<section id="project-intro">
+
+		<div class="parallax">
+			<!-- <img src="images/wavefront/landing-parallax.png"> -->
+		</div>
+
+		<div class="sidenav">
+			<a href="#overview">Overview</a>
+			<a href="#current-state">Requirements & Potential Issues</a>
+			<a href="#competitor-analysis">Trends & Potential Solutions</a>
+			<a href="#proposal">Design proposals</a>
+			<a href="#reflection">Reflection</a>
+		</div>
+
+		<div class="project-title">
+			<div class="col-1of2 center">
+				<h5>Sprung Studios</h5>
+				<h2>Quick and dirty design evaluation process and suggesting high fidelity solutions.</h2>
+			</div>
+		</div>
+
+		<div class="project-details center">
+			<div class="flex-container">
+				<div class="col-4of8">
+					<p><span class="bold">role:</span> Associate User Researcher</p>
+					<p><span class="bold">timeline:</span> July 2023, 3 days</p>
+					<!-- <p><span class="bold">rationale:</span> Onboarding Module</p> -->
+				</div>
+
+				<div class="col-4of8">
+					<p><span class="bold">software:</span> Figma</p>
+					<!-- <p><span class="bold">timeline:</span> July 2023, 3 days</p> -->
+				</div>
+			</div>
+			<em>This project was conducted as an onboarding exercise for new hires. This project is in no way associated with the game developer, and all information in this case study is my own and does not necessarily reflect the views of Sprung Studios.</em>
+
+		</div>
+	</section>
+
+	<section class="project-content" id="overview">
+		
+		<div class="center flex-container">
+			<div class="col-4of8">
+				<h4>Project Overview</h4>
+				<p>During my onboarding period at Sprung, I was tasked with evaluating the UX of a mobile game, identifying potential player pain points, and create low-fidelity wireframes to suggest solutions. The game I evaluated was WildCraft: Animal Sim Online. Specifically, I focused on the game's Rank screen.</p>
+			</div>
+			<div class="col-4of8">
+				<a href="images/sprung-studios-wildcraft/current-state-idle.png" target="blank"><img src="images/sprung-studios-wildcraft/current-state-idle.png" alt="The game's current Rank screen." class="col-8of8"></a>
+				<figcaption>The game's current Rank screen</figcaption>
+			</div>
+		</div>
+
+		<div class="col-8of8 center" id="current-state">
+			<h4>Evaluating current state: Requirements & Potential Issues</h4>
+			<p>My approach to evaluating the user experience of the Rank screen was founded on leveraging conventional UX principles, like Jakob Nielsen's <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">10 usability heuristics for user interface design</a>, as well as Celia Hodent's <a href="https://www.goodreads.com/book/show/55599730-the-psychology-of-video-games">The Psychology of Video Games</a>.</p>
+		</div>
+
+		<div class="center flex-container">
+			<div class="col-4of8">
+				<h5>Identifying required features, information, and hierarchy</h5>
+				<p>Highlighted on the right are 6 key pieces of information that needed to be kept in my redesign.</p>
+				<p>Below, we can see potential player issues through the lens of UX and accessibility.</p>
+			</div>
+
+			<div class="col-4of8">
+				<a href="images/sprung-studios-wildcraft/current-state-focused.png" target="blank"><img src="images/sprung-studios-wildcraft/current-state-focused.png" alt="The game's current Rank screen when a Mission is focused." class="col-8of8"></a>
+				<figcaption>The game's current Rank screen when a Mission is focused.</figcaption>
+			</div>
+		</div>
+
+		<div class="center">
+			<div class="col-8of8">
+				<a href="images/sprung-studios-wildcraft/current-state-focused-issues.png" target="blank"><img src="images/sprung-studios-wildcraft/current-state-focused-issues.png" alt="Potential player pain points and issues with the game's current Rank screen when a Mission is focused." class="col-8of8"></a>
+				<figcaption>Identifying potential player pain points and UX issues.</figcaption>
+			</div>
+		</div>
+
+		<div class="center flex-container" id="competitor-analysis">
+			<div class="col-4of8">
+				<h4>Competitor analysis: Trends & Potential Solutions</h4>
+				<h5>1. Achievement name is displayed close to Achievement description.</h5>
+				<h5>2. Display achievement progress to motivate players.</h5>
+				<h5>3. Displaying completion date is a “nice-to-have”.</h5>
+			</div>
+			<div class="col-4of8">
+				<a href="images/sprung-studios-wildcraft/competitor-analysis-genshin.png" target="blank"><img src="images/sprung-studios-wildcraft/competitor-analysis-genshin.png" alt="Genshin Impact competitor analysis." class="col-8of8 HE-image"></a>
+				<a href="images/sprung-studios-wildcraft/competitor-analysis-overwatch.png" target="blank"><img src="images/sprung-studios-wildcraft/competitor-analysis-overwatch.png" alt="Overwatch competitor analysis." class="col-8of8 HE-image"></a>
+				<a href="images/sprung-studios-wildcraft/competitor-analysis-arena-of-valor.png" target="blank"><img src="images/sprung-studios-wildcraft/competitor-analysis-arena-of-valor.png" alt="Arena of Valor competitor analysis." class="col-8of8 HE-image"></a>
+				<!-- <figcaption>Heuristic evaluation notes and findings. Click to view full evaluation.</figcaption> -->
+			</div>
+		</div>
+
+		<div class="center" id="proposal">
+			<h4>Design proposal and mockups</h4>
+			<p>I designed 3 high-fidelity mock-ups to address the aforementioned issues. The top and bottom banners were out of scope for this particular assignment.
+				<div class="indent">
+					<h5>Option A:</h5>
+					<p>The goal for Option A was to go for a design that would remove the need to tap on a specific Mission to read the Mission's description, but still felt familiar to the original UI.</p>
+				</div>
+			</p>
+
+			<div class="mockup-image">
+				<a href="images/sprung-studios-wildcraft/solution-a.png" target="blank"><img src="images/sprung-studios-wildcraft/solution-a.png" alt="Proposal Option A." class="col-1of1"></a>
+				<!-- <figcaption></figcaption>  -->
+			</div>
+		</div>
+
+
+		<div class="center">
+			<div class="indent">
+				<h5>Option B:</h5>
+				<p>With Option B, I wanted to explore a more noteable difference in Mission states, specifically highlighting the player's progress towards mission completion.</p>
+			</div>
+
+			<div class="mockup-image">
+				<a href="images/sprung-studios-wildcraft/solution-b.png" target="blank"><img src="images/sprung-studios-wildcraft/solution-b.png" alt="Proposal Option B." class="col-1of1"></a>
+			</div>
+
+		</div>
+
+		<div class="center">
+			<div class="indent">
+				<h5>Option C:</h5>
+				<p>Option C was the most similar to the original UX layout, but improved the legibility of Mission tiles.</p>
+			</div>
+
+			<div class="mockup-image">
+				<a href="images/sprung-studios-wildcraft/solution-c.png" target="blank"><img src="images/sprung-studios-wildcraft/solution-c.png" alt="Proposal Option C." class="col-1of1"></a>
+			</div>
+		</div>
+
+		<div class="col-8of8 center" id="reflection">
+			<h4>Jumping straight to high-fidelity mockups</h4>
+			<p>This onboarding exercise was a really fun opportunity to brush up on the design skills I had learned in undergrad and in my various design co-ops. It was especially refreshing to be able to apply UX principles to video games, as this was something that was fairly new to me at the time. In my previous roles and experience, I focused primarily on UX for websites, web apps, and mobile apps. After some time had past, I revisited these proposals and used Figma prototyping to add interactions and visualize a realistic player experience!</p>
+		</div>
+	</section>
+
+	<section id="projects" class="projects">
+		<div class="flex-container">
+
+			<div class="project-item active">
+				<a href="#header" class="projects-image">
+					<img src="images/sprung-studios-wildcraft/sprung-studios-wildcraft-project-tile.png" alt="Sprung Studios Wildcraft Project Banner">
+				</a>
+			</div>
+
+			<div class="project-item">
+				<a href="cibc-uxr-practice.html" class="projects-image">
+					<img src="images/cibc-uxr-practice/cibc-uxr-practice-project-tile.png" alt="CIBC UXR Practice Project Banner">
+				</a>
+			</div>
+
+			<div class="project-item">
+				<a href="cibc-life-insurance.html" class="projects-image">
+					<img src="images/cibc-life-insurance/cibc-life-insurance-project-tile.png" alt="CIBC Project Banner">
+				</a>
+			</div>
+
+
+		</div>
+	</section>
+
+
+	<footer id="footer" class="footer">
+		<a href="https://www.linkedin.com/in/justinlau1997/" target="blank"><img src="images/icons/icons8-linkedin-32.png" alt="linkedIn icon"></a>
+		<a href="https://www.instagram.com/just1n_lau/" target="blank"><img src="images/icons/icons8-instagram-32.png" alt="instagram icon"></a>
+		<a href="mailto:laujustin97@gmail.com?subject=I'm interested in working with you!" target="blank"><img src="images/icons/icons8-gmail-32.png" alt="email icon"></a>
+		<p>Coded and designed by Justin Lau 2025</p>
+	</footer>
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+
+</body>
+</html>
